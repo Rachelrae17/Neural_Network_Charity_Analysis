@@ -13,6 +13,9 @@ The column IS_SUCCESSFUL contains binary data refering to weither or not the cha
 The following columns APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT are the features for our model.
 Encoding of the categorical variables, spliting into training and testing datasets and standardization have been applied to the features.
 
+![Steo 1](https://user-images.githubusercontent.com/95897182/167731267-da6c712f-587a-440e-a21c-2ebfbe7586aa.png)
+
+
 Compiling, Training, and Evaluating the Model- 
 This deep-learning neural network model is made of two hidden layers with 80 and 30 neurons respectively.
 The input data has 43 features and 25,724 samples.The output layer is made of a unique neuron as it is a binary classification.
