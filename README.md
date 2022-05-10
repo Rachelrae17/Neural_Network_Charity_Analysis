@@ -24,6 +24,8 @@ We also tried a different activation function (tanh) but none of these steps hel
 
 ![Step 2](https://user-images.githubusercontent.com/95897182/167731551-578632ae-4322-4789-9968-591ba89b2b85.png) 
 
+Summary: 
+The deep learning neural network model did reach the target of 73% accuracy. Considering that this target level is pretty average we could say that the model is not outperforming.Since we are in a binary classification situation, we could use a supervised machine learning model such as the Random Forest Classifier to combine a multitude of decision trees to generate a classified output and evaluate its performance against our deep learning model.There are several options for improving the model. One option would be to use the techniques mentioned above but in combination. Perhaps this would increase the accuracy above 75%, but that is yet to be determined. A second option would be to increase the size of the training dataset. Additional data would likely give the model more opportunity to learn and thereby increase the accuracy. A third option would be to use a different binary classifier, such as the Random Forest Classifier.
 
 
 
